@@ -219,3 +219,49 @@ button:hover, #enviar:hover, button:active, #enviar:active {
       text-shadow: 0 0 20px #fff, 0 0 30px var(--verde), 0 0 40px var(--verde), 0 0 50px var(--verde), 0 0 60px var(--verde), 0 0 70px var(--verde), 0 0 80px var(--verde);
     }
 }
+
+/* Estilos para telas menores (dispositivos móveis) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .utilidades {
+        width: 90%; 
+        padding: 0.5rem; 
+    }
+
+    .utilidades #quantidade {
+        border-bottom-left-radius: 0px;
+    }
+
+    .utilidades #enviar {
+        border-top-right-radius: 0px;
+
+    }
+
+    .utilidades button {
+        width: 100%; 
+        margin: 0.5rem 0; 
+    }
+
+    .botoes {
+        flex-direction: column; 
+        margin-top: 1rem; 
+    }
+
+    .botoes {
+        display: flex;
+    }
+
+    label {
+        text-align: center;
+    }
+
+    .circulo {
+        width: 50px; 
+        height: 50px; 
+        margin: 0.5rem; 
+    }
+}
+
