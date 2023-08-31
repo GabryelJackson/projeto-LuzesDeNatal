@@ -18,7 +18,8 @@
 }
 
 body {
-    background-color: var(--color1);
+    background: url(SL-062121-43900-66.jpg);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -223,6 +224,7 @@ button:hover, #enviar:hover, button:active, #enviar:active {
 /* Estilos para telas menores (dispositivos móveis) */
 @media screen and (max-width: 768px) {
     body {
+        background-position: right;
         font-size: 16px;
     }
 
