@@ -18,7 +18,7 @@
 }
 
 body {
-    background: url(SL-062121-43900-66.jpg);
+    background-image: url(SL-062121-43900-66.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
